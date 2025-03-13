@@ -19,7 +19,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +39,23 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+nav.navbar {
+  background-color: #21222A;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22.25px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  height: 91px;
+  display: flex;
+  align-items: center;
+}
+
+nav.navbar > img {
+  width: 27.69px;
+  height: 24.5px;
+  margin-left: 26px;
+  margin-right: 10px;
 }
